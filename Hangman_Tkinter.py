@@ -132,7 +132,7 @@ def new_game():
     # declaring global variables
     bt1.destroy()
     # Provide a list to choose words from
-    lst = ['Elephant', 'BlueWhale', 'Buffalo', 'Genda', 'Lmao']
+    lst = ['Elephant', 'BlueWhale', 'Buffalo']
     wrd = random.choice(lst).upper()  # Selects a random word from the list
     length = len(wrd)
     hdn_wrd = list(wrd)  # converts the word to a list to make it mutable
