@@ -121,7 +121,7 @@ def new_game():
     print("Welcome To Hangman !!")
     global lives, hdn_wrd, hidden_letter, length, wrd, hdn_index,gsd_letters,ungsd_letters #declaring global variables
     # Provide a list to choose words from
-    lst = ['Elephant', 'BlueWhale', 'Buffalo', 'Genda', 'Lmao']
+    lst = ['Elephant', 'BlueWhale', 'Buffalo']
     gsd_letters = []
     ungsd_letters = []
     wrd = random.choice(lst).upper()  # Selects a random word from the list
