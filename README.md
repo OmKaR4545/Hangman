@@ -1,2 +1,2 @@
 # Hangman
-A python based python game
+A python based Game using Tkinter module
