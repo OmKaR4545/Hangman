@@ -1,0 +1,50 @@
+.navbar{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbartitle{
+    color: white;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    border: double white 20px;
+    width: 500px;
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn{
+    width: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: black double 10px;
+    border-radius: 50px;
+}
+
+.accordion-body{
+    color: black;
+}
+
+.accordion-button{
+    border-radius: 20px;
+    border: black solid 5px;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+img{
+    margin: 5px;
+    border: white double 5px;
+    border-radius: 20px;
+    height: 150px;
+}

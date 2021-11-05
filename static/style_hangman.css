@@ -1,0 +1,156 @@
+section{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em 0;
+  font-size: 22px;
+}
+
+
+/* Popover styling */
+.popover__title {
+  font-size: 30px;
+  color: rgb(255, 153, 0);
+  line-height: 36px;
+  text-align: center;
+  padding: 15px 0;
+  position: static;
+  left: 250px;
+  cursor: pointer;
+}
+
+.popover__wrapper {
+  position: relative;
+  margin-top: 0;
+  padding: 0;
+  display: inline-block;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  background-color:#0A1638;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: 500px;
+  border-radius: 20px;
+
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  left: calc(5% - 0px);
+  top: -15px;
+  border-style: solid ;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent rgb(255, 153, 0) transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  display: inline-block;
+  transform: translate(0, -25px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  border: 5px solid rgb(255, 153, 0);
+  font-size: medium;
+}
+.popover__message {
+  text-align: center;
+  color: lightcyan;
+
+}
+
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  background-color: white;
+}
+
+nav{
+  background-attachment: fixed;
+  background-color:#0A1638;
+}
+
+
+section{
+  width: 500px;
+  display: inline;
+}
+
+form{
+  width: 500px;
+  padding: 20px;
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bolder;
+  display: inline;
+  color: #0A1638;
+}
+
+input{
+  font-size: 25px;
+  color: #0A1638;
+  border: #0A1638 5px;
+  border-style: double;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.big{
+height: 200px;
+display: block;
+}
+
+.word{
+width: fit-content;
+margin-left: 200px;
+font-size: 40px ;
+font-weight: bolder;
+}
+
+.inline{
+  width: fit-content;
+}
+
+.zero{
+  margin: 0px;
+}
+
+.left{
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  width: fit-content;
+  padding: 0px;
+}
+
+.hangman{
+  height: fit-content;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+legend{
+  text-align: center;
+  border: 5px ridge #0A1638;
+  background-color: white;
+  font-size: 40px;
+}
+
+fieldset{
+  border:#0A1638 5px solid;
+  margin-top: 10px;
+}
+
+button{
+  font-size: 30px;
+  box-shadow: gold;
+  border: #0A1638 solid 3px ;
+}
